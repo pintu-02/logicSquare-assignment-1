@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import cafeData from "./cafesData.js"
 import './campus.css'
 import placeData from "./placeData.js"
 
@@ -7,9 +6,6 @@ const Campus = () => {
 
     const [searchTerm, setSearchTerm] = useState("");
 
-    // filter the object according to the searchTerm
-    // var filterObjData = placeData.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase()));
-    // console.log(filterObjData);
 
     return (
         <div className="main">
